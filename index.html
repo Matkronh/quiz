@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+    <style>
+      label {
+        display: block;
+      }
+      #quiz-score {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="hero">
+    <h1>Quiz</h1>
+    <h1 id="h1-correct" style=display:none>You are correct!</h1>
+    <h1 id="h1-wrong" style=display:none>You are wrong!</h1>
+    <h2 id="quiz-score"></h2>
+    <form>
+      <ol id="quiz"></ol>
+      <div id="g1" style=display:none><img class="imgc" src="gifs/youcandobetter.gif"> </div>
+      <div id="g2" style=display:none><img class="imgc" src="gifs/youdidok.gif"> </div>
+      <div id="g3" style=display:none><img class="imgc" src="gifs/youdidgreat.gif"> </div>
+      <div id="g4" style=display:none><img class="imgc" src="gifs/zero_score.gif"> </div>
+      <div id="g6" style=display:none><img class="imgc" src="gifs/full_score.gif"> </div>
+      <div id="buttons">
+      <button id="btn-sub" >Submit</button>
+      <button id="btn-next">Next question</button>
+      <button id="restart" style="display:none" >Restart</button>
+      </div>
+    </form>
+
+    <script src="src/index.js"></script>
+  </div>
+  </body>
+</html>
